@@ -33,7 +33,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
-/* MINIBOT — پوسته بومی اندروید برای پنل کاربران
+/* Mini Bot — پوسته بومی اندروید برای پنل کاربران
    همه امکانات ربات داخل همین اپ: ورود، داشبورد، فیش‌ها، پلن‌ها،
    قابلیت‌ها، آپلود عکس رسید و پشتیبانی واتساپ */
 
