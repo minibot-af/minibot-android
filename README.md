@@ -15,11 +15,18 @@
 ## ساخت APK
 هر push روی برنچ `main` باعث ساخت خودکار APK با GitHub Actions می‌شود.
 
-برای دانلود:
-1. تب **Actions** را باز کن
-2. آخرین build موفق را انتخاب کن
-3. از پایین صفحه، فایل `Mini Bot-APK` را دانلود کن
-4. داخلش `Mini Bot-v1.0.apk` آماده نصب است
+دانلود مستقیم (همیشه آخرین نسخه):
+```
+https://github.com/minibot-af/minibot-android/releases/latest/download/MiniBot.apk
+```
+(همین لینک روی سایت Mini Bot دکمه «دانلود اپلیکیشن» است)
+
+یا از تب **Actions** آخرین build موفق را انتخاب کن و فایل `MiniBot-APK` را دانلود کن.
+
+برای انتشار نسخه جدید فقط یک تگ بزن (APK خودکار به Release اضافه می‌شود):
+```bash
+git tag v1.1 && git push origin v1.1
+```
 
 ساخت دستی (محلی):
 ```bash
