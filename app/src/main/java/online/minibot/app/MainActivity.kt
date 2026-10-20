@@ -28,6 +28,7 @@ import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
+import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -63,6 +64,10 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        /* فول‌صفحه: محتوا پشت نوار وضعیت و ناوبری — پنل با safe-area خودش فاصله می‌گیرد */
+        enableEdgeToEdge()
+
         setContentView(R.layout.activity_main)
 
         webView = findViewById(R.id.webView)
