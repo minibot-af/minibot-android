@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MINIBOT</string>
+    <string name="app_name">Mini Bot</string>
     <string name="splash_tagline">ربات واتساپ هوشمند شما</string>
     <string name="loading">در حال اتصال…</string>
     <string name="error_title">⚠️ اتصال برقرار نشد</string>
